@@ -1,0 +1,30 @@
+{
+  "name": "genpark-url-canonicalization-anti-crawler-trap-skill",
+  "version": "1.0.0",
+  "description": "Web URL canonicalization and anti-crawler trap detector identifying circular paths, infinite paginations, and tracking parameter bloat.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "url-canonicalization",
+    "crawler-trap",
+    "web-agent",
+    "scraping-guard",
+    "infinite-loop-filter",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "canonicalize_url",
+      "description": "Canonicalize URL and strip tracking parameters."
+    },
+    {
+      "name": "detect_crawler_trap",
+      "description": "Detect cyclic paths and crawler trap anomalies."
+    },
+    {
+      "name": "run_benchmark_url_canonicalizer",
+      "description": "Run URL canonicalizer benchmark."
+    }
+  ]
+}
