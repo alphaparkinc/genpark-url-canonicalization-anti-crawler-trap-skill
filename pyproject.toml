@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-url-canonicalization-anti-crawler-trap-skill"
+version = "1.0.0"
+description = "Web URL canonicalization and anti-crawler trap detector identifying circular paths, infinite paginations, and tracking parameter bloat."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "web-browsing", "dom-pruning", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-url-canonicalization-anti-crawler-trap-skill"
